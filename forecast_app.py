@@ -24,7 +24,7 @@ try:
     response.raise_for_status()
 except requests.RequestException:
     st.error(
-        "API server is not running. Start FastAPI on port 8010, "
+        "API server is not running. Start FastAPI on port 8011, "
         "then refresh this page."
     )
     st.stop()
