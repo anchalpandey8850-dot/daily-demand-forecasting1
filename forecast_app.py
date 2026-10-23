@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 from datetime import date
 
-API_URL = "http://127.0.0.1:8011"
+API_URL = "http://127.0.0.1:8010"
 
 st.set_page_config(
     page_title="Daily Demand Forecasting",
